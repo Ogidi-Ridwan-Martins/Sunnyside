@@ -1,0 +1,274 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 100vh;
+    background-image: url(/images/desktop/image-header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header>nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+header>nav>ul{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    align-items: center;
+}
+header>nav>ul>li>a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.contact{
+    background-color: white;
+    padding: 10px;
+    border-radius: 40px;
+}
+.contactmain{
+    color: black;
+}
+header>nav>ul>li:hover{
+    background-color: purple;
+    border-radius: 40px;  
+}
+header>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+
+    h1{
+        font-size: 4em;
+        color: white;
+    }
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    div{
+        height: 80vh;
+    }
+}
+.grid1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    aside{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        gap: 20px;
+        p{
+            color: grey;
+            font-size: large;
+        }
+    }
+}
+.button{
+    width: 100px;
+        height: 8px;
+        display: flex;
+        align-items: end;
+        justify-content: center;
+        background-color: yellow;
+        border-radius: 10px;
+        border: 0;
+}
+.button:hover{
+    background-color: purple;
+    h4{
+        color: red;
+    }
+}
+.grid2{
+    background-image: url(/images/desktop/image-transform.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.grid3{
+    background-image: url(/images/desktop/image-stand-out.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.grid4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    aside{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        gap: 50px;
+        p{
+            color: grey;
+            font-size: large;
+        }
+    }
+}
+.grid5{
+    background-image: url(/images/desktop/image-graphic-design.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    aside{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        padding: 50px;
+        p{
+            color: grey;
+            font-size: large;
+            text-align: center;
+        }
+    }
+    
+}
+.grid6{
+    background-image: url(/images/desktop/image-photography.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    aside{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        padding: 50px;
+        p{
+            color: grey;
+            font-size: large;
+            text-align: center;
+        }
+    }
+    }
+    address>h1{
+        text-align: center;
+        margin: 50px;
+        color: grey;
+        font-style: normal;
+        font-size: x-large;
+    }
+    article{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    div{
+        height: 80vh;
+    }
+    div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        aside{
+            width: 70%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 50px;
+        }
+        section{
+            text-align: center;
+            font-style: normal;
+            img{
+                border-radius: 50%;
+            }
+        }
+    }
+    }
+    .lastgrid{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        div{
+            height: 60vh;
+        }
+    }
+    .lg1{
+        background-image: url(/images/desktop/image-gallery-milkbottles.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .lg2{
+        background-image: url(/images/desktop/image-gallery-orange.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .lg3{
+        background-image: url(/images/desktop/image-gallery-cone.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .lg4{
+        background-image: url(/images/desktop/image-gallery-sugarcubes.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    footer{
+        height: 50vh;
+        background-color: aquamarine;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    footer>aside{
+        width: 40%;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+    }
+    .sunnyside{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+    .logo{
+        width: 40%;
+        ul{
+            display: flex;
+            list-style-type: none;
+            justify-content: center;
+            justify-content: space-between
+        }  
+    }
+    .fn{
+        width: 80%;
+        color: grey;
+        ul{
+            display: flex;
+            list-style-type: none;
+            justify-content: center;
+            justify-content: space-between
+        } 
+    }
